@@ -1,0 +1,95 @@
+/* Mise en page de base */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    padding: 100px;
+    margin: 180px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("OIP\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+header {
+    border-radius: 20px;
+    background-color: #2a7f55;
+    color: rgb(14, 5, 5);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(3, 1, 1);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.perso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.perso img {
+    margin: 20px;
+    max-width: 150px;
+    height: auto;
+}
+
+.perso p {
+    flex: 1;
+}
+.titre_perso{
+    color: #ffffff;
+    font-size: 20px;
+    
+    text-align: center;
+    margin: 00px;
+}
+.description{
+    color: #008d6a;
+    font-size: 15px;
+    text-align: center;
+    margin: 00px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.info{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    margin-bottom: -40px;
+    background-color: rgba(0, 0, 0, 0.438);
+
+}
